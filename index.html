@@ -20,6 +20,35 @@
 
     <p id="mp"></p>
 
+    <button ondblclick="dbClick()">Double Click</button>
+
+    <hr><br>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+    </form>
+
+    <p id="errorPara"></p>
+
+    <hr>
+    <hr>
+    <br>
+    <form onsubmit="return validate()">
+        <label for="fullname"> Full Name</label>
+        <input type="text" id="fullname">
+
+        <label for="email"> Email </label>
+        <input type="email" id="email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password">
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+    <p id="formError"></p>
+
     <script src="./script.js"></script>
 </body>
 </html>

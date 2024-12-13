@@ -1,3 +1,6 @@
 #iconimg:hover{
     cursor: pointer;
 }
+#formError, input::placeholder{
+    color: rgb(196, 92, 92);
+}
